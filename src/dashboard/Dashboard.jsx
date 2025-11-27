@@ -11,12 +11,12 @@ export default function DashboardLayout() {
         <CardItem
           title="2025_10_24_안다즈 도면"
           date="3일 전 편집됨"
-          thumbnail="/src/assets/draft1.jpg"
+          thumbnail="/draft1.jpg"
         />
         <CardItem
           title="제목 없음"
           date="1일 전 편집됨"
-          thumbnail="/src/assets/draft2.jpg"
+          thumbnail="/draft2.jpg"
         />
       </Section>
 
@@ -26,19 +26,19 @@ export default function DashboardLayout() {
           title="모델링 시작하기"
           date="3개월 전 편집됨"
           isTemplate={true}
-          thumbnail="/src/assets/template1-2.jpg"
+          thumbnail="/template1-2.jpg"
         />
         <CardItem
           title="아파트 리모델링 시작하기"
           date="3개월 전 편집됨"
           isTemplate={true}
-          thumbnail="/src/assets/template2.jpg"
+          thumbnail="/template2.jpg"
         />
         <CardItem
           title="도면기호 템플릿"
           date="3개월 전 편집됨"
           isTemplate={true}
-          thumbnail="/src/assets/template3.jpg"
+          thumbnail="/template3.jpg"
         />
       </Section>
     </div>
