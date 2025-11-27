@@ -1,0 +1,113 @@
+/* src/editor/panels/TopToolbar/styles.css */
+
+/* 컨테이너 */
+.top-toolbar-container {
+  height: 43px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 12px;
+  border-bottom: 1px solid #E5E6EB;
+  background: #fff;
+  user-select: none;
+}
+
+/* 프로젝트 타이틀 */
+.title-dropdown {
+  height: 28px;
+  width: 180px;
+  padding: 0 10px;
+  background: #f6f6f8;
+  border-radius: 6px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+/* 버튼 래퍼 */
+.tool-button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+/* 메인 아이콘 버튼 */
+.tool-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #73737C;
+  cursor: pointer;
+  position: relative;
+}
+
+.tool-button:hover {
+  background: rgba(227, 227, 227, 0.5);
+}
+
+/* Tooltip */
+.tool-button .tool-tooltip {
+  position: absolute;
+  top: 40px;
+  padding: 3px 6px;
+  background: #131316;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  display: none;
+}
+
+.tool-button:hover .tool-tooltip {
+  display: block;
+}
+
+/* 드롭다운 작은 버튼 */
+.dropdown-small-btn {
+  color : #73737C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+
+  margin-right: -6px;
+}
+
+.dropdown-small-btn:hover {
+  background: #f1f1f5;
+}
+
+/* 드롭다운-only tooltip 제거 */
+.dropdown-only .tool-tooltip {
+  display: none !important;
+}
+
+/* dropdown-only 래퍼 */
+.dropdown-only {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 드롭다운-only 사이즈 */
+.dropdown-only .dropdown-small-btn {
+  width: 20px;
+  height: 32px;
+}
+
+/* Divider */
+.tool-divider {
+  width: 1px;
+  height: 24px;
+  background: #E5E6EB;
+  margin: 0 3px;
+}
